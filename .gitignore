@@ -9,6 +9,7 @@ while True:
        else:
            total=int(usuario)+total
            contador=contador+1
+           media=total/contador
    except:
          if usuario.isalpha():
              print('erro de digitação')
